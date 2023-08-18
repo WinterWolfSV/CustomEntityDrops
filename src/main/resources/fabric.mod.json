@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+  "name": "Custom Entity Drops",
+  "description": "A mod that adds commands to have entities drop set items.",
+  "authors": [
+	"WinterWolfSV"
+  ],
+  "contact": {
+	"discord": "WinterWolfSV",
+	"modrinth": "https://modrinth.com/user/WinterWolfSV"
+  },
+  "license": "CC-BY-NC-4.0",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+	"main": [
+	  "winterwolfsv.custom_entity_drops.CED"
+	],
+	"client": [
+	  "winterwolfsv.custom_entity_drops.client.CEDClient"
+	]
+  },
+  "mixins": [
+	"custom_entity_drops.mixins.json"
+  ],
+  "depends": {
+	"fabricloader": "*",
+	"minecraft": "1.19.*",
+	"java": ">=17",
+	"fabric-api": "*"
+  },
+  "suggests": {
+	"another-mod": "cobblemon"
+  }
+}

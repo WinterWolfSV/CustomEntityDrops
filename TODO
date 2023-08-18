@@ -1,0 +1,17 @@
+Goal: Spawn an entity with a custom tag that drops a certain item on death.
+
+- /itemsummon [coordinates] [entity] [item] [amount]
+
+- Example: /itemsummon ~ ~ ~ minecraft:zombie minecraft:iron_ingot 1
+
+- Make mobs not despawn.
+- Add information command about the entities.
+- Add server specific data to the entities.
+
+
+
+New mod idea:
+FTB quest
+- Catch specific pokemon
+- Kill specific pokemon
+- Catch specific pokemon
